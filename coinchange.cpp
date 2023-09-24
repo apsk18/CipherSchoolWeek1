@@ -1,3 +1,6 @@
+#include<bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     int f(int i,int t,vector<int>& coins,vector<vector<int>>&dp){
@@ -35,3 +38,7 @@ public:
         else return -1;
     }
 };
+
+int main() {
+    
+}
