@@ -1,3 +1,6 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 class Solution {
 public:
     bool isBalanced(TreeNode* root) {
@@ -24,3 +27,7 @@ public:
          return max(lh,rh)+1;   
     }
 };
+
+int main() {
+    
+}
